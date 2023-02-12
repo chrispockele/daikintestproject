@@ -1,0 +1,40 @@
+Requirements:
+
+From: "ensure that the temperature in a room is always between a min and max adjustable temperature"
+
+A. The software component shall have a "minimum temperature" property (unit: degrees Celsius).
+
+B. The software component shall have a "maximum temperature" property (unit: degrees Celsius).
+
+C. The software component shall have an interface to inform it of the current room temperature.
+
+
+From: "When temp is too low, start heating, when temp is too high start cooling."
+
+D. The software component has the following states:
+ - heating
+ - cooling
+ - idling (doing nothing)
+
+E. When the current room temperature falls below the minimum, it shall switch to the "heating" state.
+
+F. When the current room temperature becomes higher than maximum, it shall switch to the "cooling" state.
+
+G. REQUIREMENT(S) FOR SWITCHING TO "idling" STATE: SEE QUESTIONS / ANSWER FROM DAIKIN
+
+
+Derived requirements:
+
+Z. To avoid constant heating-cooling switching: maximum temperature shall be equal to or greater than "minimum temperature + 1".
+
+***********
+
+Questions for Daikin:
+ - Temperature unit is not specified.  Degrees Celsius assumed OK?  What to choose?
+
+ - The requirements state: "When temp is too low, start heating, when temp is too high start cooling."
+   It is not stated when to stop heating or cooling.  For example, if min and max temperatures are set to 20 and 30 degrees, and the system starts heating when temperature falls below 20, when should it stop heating?  At 20, ... 25, 29 ... ?
+   
+ - "code is available in a git repo" - 
+   I can send you an archive of my local repository, is that OK?
+   Or... does it have to be a publically accessible online repository?
