@@ -1,0 +1,47 @@
+Hi Chris,
+
+A test project, For this test case you need to provide us the result in git repo.
+
+The test project description:
+
+Tools to be used – free choice.
+
+Requirement :  ensure that the temperature in a room is always between a min and max adjustable temperature.
+
+         When temp is too low, start heating, when temp is too high start cooling.
+
+How:
+
+1- create a component in cpp + api's 
+
+2- create needed test-cases using google test (stub, mock,..)
+
+3- code must be build with cmake
+
+4- code is available in a git repo
+
+ 
+
+In case of any unclarity, don’t hesitate to contact us.
+
+ 
+
+ 
+
+Kind regards | Met vriendelijke groeten
+
+ 
+
+Lukas Meel
+
+Daikin Europe NV  | Senior Recruiter
+
+M: +(32) 470 829 728 | E: meel.l@daikineurope.com
+
+ 
+
+Daikin Europe N.V. - Naamloze Vennootschap - Zandvoordestraat 300 - 8400 Oostende - Belgium - BTW BE 0412.120.336 - RPR Oostende
+
+Tel: (+32)59/55 81 11 - Fax: (+32)59/55 88 99 - Web:https://www.daikin.eu
+
+ 
