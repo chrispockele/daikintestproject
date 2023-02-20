@@ -45,7 +45,7 @@ Daikin Europe N.V. - Naamloze Vennootschap - Zandvoordestraat 300 - 8400 Oostend
 Tel: (+32)59/55 81 11 - Fax: (+32)59/55 88 99 - Web:https://www.daikin.eu
 
  
-************
+***********
 
 
 Questions for Daikin:
@@ -72,3 +72,18 @@ For implementing this, I started with writing more formal and fine-grained requi
 
 Best regards / vriendelijke groeten,
 Chris Pockelé
+
+
+***********
+
+Hi Chris,
+
+Degrees Celsius is ok, precision can be 0.5, you can add your own limitations of course. This is a theoretical example, not a real implementation.
+
+The interest from our side is more on HOW C++ and object oriented principles are used than the WHAT (as in detailed requirements, spec, representative for real use case) We want to see good use/knowledge of the object oriented way of thinking with the hands on skills and syntax knowledge on C++.
+During work the design can be specified by us, implementation capability is the scope of this investigation.
+
+
+Kind regards | Met vriendelijke groeten
+ 
+Lukas Meel
