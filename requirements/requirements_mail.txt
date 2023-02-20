@@ -45,3 +45,30 @@ Daikin Europe N.V. - Naamloze Vennootschap - Zandvoordestraat 300 - 8400 Oostend
 Tel: (+32)59/55 81 11 - Fax: (+32)59/55 88 99 - Web:https://www.daikin.eu
 
  
+************
+
+
+Questions for Daikin:
+
+Hi Lukas,
+
+First, I'm sorry for the late reply as I have been unable to start work on this during the previous week-end.
+
+For implementing this, I started with writing more formal and fine-grained requirements.
+
+ - Temperature unit is not specified.  Is "Degrees Celsius OK?  Can I choose freely?
+ 
+ - Is a precision of 1 degree enough?  Or do we need control by 0.1 or 0.5 degrees?
+ 
+ - Can I add my own limitations, such as for example:
+    "maximum temperature should be at least minimum temperature + 1": this makes it easier to avoid problems such as constant heating-cooling switching.
+
+ - The requirements state: "When temp is too low, start heating, when temp is too high start cooling."
+   It is not stated when to STOP heating or cooling.  For example, if min and max temperatures are set to 20 and 30 degrees, and the system starts heating when temperature falls below 20, when should it stop heating?  At 20, ... 25, 29, ... ?
+   
+ - "code is available in a git repo" - 
+   I can send you an archive of my local repository, is that OK?
+   Or... does it have to be a publically accessible online repository?
+
+Best regards / vriendelijke groeten,
+Chris Pockelé
