@@ -24,8 +24,8 @@ E. When the current room temperature falls below the minimum, it shall switch to
 
 F. When the current room temperature becomes higher than maximum, it shall switch to the "cooling" state.
 
-G. REQUIREMENT(S) FOR SWITCHING TO "idling" STATE: "can add your own"
-   when temperature reaches "minimum+1" (heating) or "maximum-1" (cooling)
+G. REQUIREMENT(S) FOR SWITCHING TO "idling" STATE: reply from Daikin: "can add your own"
+   Choice: when temperature reaches "minimum+1" (when heating) or "maximum-1" (when cooling), switch to idle state.
 
 
 Derived requirements:
