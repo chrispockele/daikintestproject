@@ -1,4 +1,4 @@
-// main.cpp
+// main.cpp - DEPRECATED after switching to Google Test
 
 #include <exception>
 #include <iostream>
