@@ -1,6 +1,15 @@
 #ifndef TEMPERATURECONTROL_H
 #define TEMPERATURECONTROL_H
 
+
+
+struct TemperatureValueException : public std::exception {
+   const char * what () const throw () {
+      return "maximum temperature shall be greater than or equal to (minimum temperature + 1)";
+   }
+};
+
+
 class TemperatureControl {
 
     public:
