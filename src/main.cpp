@@ -1,4 +1,5 @@
 // main.cpp - DEPRECATED after switching to Google Test
+// (C) 2023 Chris Pockele
 
 #include <exception>
 #include <iostream>

@@ -1,3 +1,7 @@
+Test project for Daikin job application - (C) Chris Pockelé, 2023
+***************************************
+
+
 Requirements:
 
 From: "ensure that the temperature in a room is always between a min and max adjustable temperature"

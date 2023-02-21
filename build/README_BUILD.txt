@@ -1,3 +1,9 @@
+Test project for Daikin job application
+***************************************
+
+(C) Chris Pockelé, 2023
+
+
 DEVELOPED USING: 
  * GCC c++ version 8.3.0
  * cmake version 3.13.4

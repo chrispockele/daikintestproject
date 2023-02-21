@@ -1,6 +1,8 @@
 #ifndef TEMPERATURECONTROL_H
 #define TEMPERATURECONTROL_H
 
+// (C) 2023 Chris Pockele
+
 #include <exception>
 
 

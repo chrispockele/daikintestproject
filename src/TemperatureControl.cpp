@@ -1,3 +1,5 @@
+// (C) 2023 Chris Pockele
+
 #include "TemperatureControl.h"
 
 #include <cmath>

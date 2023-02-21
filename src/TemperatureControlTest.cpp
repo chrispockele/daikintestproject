@@ -1,3 +1,4 @@
+// (C) 2023 Chris Pockele
 
 #include <exception>
 #include <iostream>
