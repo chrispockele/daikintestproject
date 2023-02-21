@@ -5,7 +5,7 @@
 #include <iostream>
 
    
-#define CAST_FLOAT_TEMPERATURE_TO_INT_REPRESENTATION(pFloatTemp)  ( static_cast<int>(round((pFloatTemp) * 10)) )       /* internal representation: int representing units of 0.1 degree Celsius */
+#define CAST_FLOAT_TEMPERATURE_TO_INT_REPRESENTATION(pFloatTemp)  ( static_cast<signed int>(round((pFloatTemp) * 10)) )       /* internal representation: int representing units of 0.1 degree Celsius */
 #define CAST_INT_REPRESENTATION_TO_FLOAT_TEMPERATURE(pInt10Temp)  ( static_cast<float>( (pInt10Temp) ) / 10 )
         
         
