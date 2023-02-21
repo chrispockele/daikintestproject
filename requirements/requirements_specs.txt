@@ -2,9 +2,9 @@ Requirements:
 
 From: "ensure that the temperature in a room is always between a min and max adjustable temperature"
 
-A. The software component shall have a "minimum temperature" property (unit: degrees Celsius).
+A. The software component shall have a "minimum temperature" property (unit: degrees Celsius - precision at least 0.5).
 
-B. The software component shall have a "maximum temperature" property (unit: degrees Celsius).
+B. The software component shall have a "maximum temperature" property (unit: degrees Celsius - precision at least 0.5).
 
 C. The software component shall have an interface to inform it of the current room temperature.
 
@@ -20,11 +20,13 @@ E. When the current room temperature falls below the minimum, it shall switch to
 
 F. When the current room temperature becomes higher than maximum, it shall switch to the "cooling" state.
 
-G. REQUIREMENT(S) FOR SWITCHING TO "idling" STATE: SEE QUESTIONS / ANSWER FROM DAIKIN
+G. REQUIREMENT(S) FOR SWITCHING TO "idling" STATE: "can add your own"
+   when temperature reaches "minimum+1" (heating) or "maximum-1" (cooling)
 
 
 Derived requirements:
 
 Z. To avoid constant heating-cooling switching: maximum temperature shall be equal to or greater than "minimum temperature + 1".
+  Throw an exception if this is not the case.
 
 ***********
