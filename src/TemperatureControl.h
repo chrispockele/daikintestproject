@@ -1,6 +1,7 @@
 #ifndef TEMPERATURECONTROL_H
 #define TEMPERATURECONTROL_H
 
+#include <exception>
 
 
 struct TemperatureValueException : public std::exception {
@@ -26,13 +27,17 @@ class TemperatureControl {
 
         void notifyCurrentTemperature(float currentTemp);
 
+        TemperatureControlState getCurrentState(void);
+
     private:
+        /* internal representation: int representing units of 0.1 degree Celsius */
         signed int minimumTemp; // in 0.1 degree Celsius
         signed int maximumTemp; // in 0.1 degree Celsius
 
         TemperatureControlState    currentState;
 
         void outputState(TemperatureControlState s);
+        void checkTemperatureValuesValid(int pMinTemp, int pMaxTemp); /* parameters in internal representation: int representing units of 0.1 degree Celsius */
 };
 
 
