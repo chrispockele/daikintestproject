@@ -22,10 +22,14 @@ class TemperatureControl {
 
         TemperatureControl(float minimumTemp, float MaximumTemp);
 
-        void setMinimumTemp(float minimumTemp);
-        void setMaximumTemp(float MaximumTemp);
+        void    setMinimumTemperature(float minimumTemp);
+        void    setMaximumTemperature(float MaximumTemp);
+        float   getMinimumTemperature(void);
+        float   getMaximumTemperature(void);
 
-        void notifyCurrentTemperature(float currentTemp);
+        void    notifyCurrentTemperature(float currentTemp);
+
+        void    outputState();
 
         TemperatureControlState getCurrentState(void);
 
@@ -36,7 +40,6 @@ class TemperatureControl {
 
         TemperatureControlState    currentState;
 
-        void outputState(TemperatureControlState s);
         void checkTemperatureValuesValid(int pMinTemp, int pMaxTemp); /* parameters in internal representation: int representing units of 0.1 degree Celsius */
 };
 
